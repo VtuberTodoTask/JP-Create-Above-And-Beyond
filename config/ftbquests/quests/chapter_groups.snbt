@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{
+			id: "0810E42B2DD79973"
+			title: "{abovebeyond.chapter_groups.chapter_groups0.title}"
+		}
+		{
+			id: "331B6409EF6A7840"
+			title: "{abovebeyond.chapter_groups.chapter_groups1.title}"
+		}
+	]
+}

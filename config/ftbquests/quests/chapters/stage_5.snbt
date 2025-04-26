@@ -1,0 +1,936 @@
+{
+	id: "75CF8B6BAC6A01EF"
+	group: "331B6409EF6A7840"
+	order_index: 6
+	filename: "stage_5"
+	title: "{abovebeyond.stage_5.title}"
+	icon: "kubejs:computation_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{abovebeyond.stage_5.quests0.title}"
+			icon: "kubejs:calculation_mechanism"
+			x: 5.0d
+			y: 15.5d
+			shape: "hexagon"
+			description: [
+				"{abovebeyond.stage_5.quests0.description0}"
+				"{abovebeyond.stage_5.quests0.description1}"
+				""
+				"{abovebeyond.stage_5.quests0.description2}"
+			]
+			dependencies: ["251A91F6C21AEAFB"]
+			hide: true
+			size: 2.0d
+			id: "5D0454F977C4F080"
+			tasks: [{
+				id: "1F6009A328AA0184"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0397D214E0A6CC89"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests1.title}"
+			icon: "advancedrocketry:guidancecomputer"
+			x: 2.0d
+			y: 7.75d
+			shape: "hexagon"
+			description: [
+				"{abovebeyond.stage_5.quests1.description0}"
+				""
+				"{abovebeyond.stage_5.quests1.description1}"
+				""
+				"{abovebeyond.stage_5.quests1.description2}"
+			]
+			dependencies: [
+				"6BA9A176EDA001A3"
+				"1AE7B6CA4D1DBA6F"
+				"462CE0A4C80442FB"
+				"69311E02A8B3451D"
+				"3AD7553F3C8593F9"
+				"4800892E1E70648D"
+				"25B76A897D97C9F1"
+				"73473DC7269EC5B0"
+			]
+			size: 2.0d
+			id: "47965C310D9847DC"
+			tasks: [
+				{
+					id: "05BDC7ACF64D13C2"
+					type: "item"
+					item: "advancedrocketry:guidancecomputer"
+					consume_items: false
+				}
+				{
+					id: "4418C7A289B17158"
+					type: "item"
+					title: "{abovebeyond.stage_5.quests1.tasks1.title}"
+					icon: {
+						id: "supplementaries:flag_gray"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "gra"
+										Color: 0
+									}
+									{
+										Pattern: "bo"
+										Color: 15
+									}
+									{
+										Pattern: "bs"
+										Color: 15
+									}
+									{
+										Pattern: "ts"
+										Color: 15
+									}
+									{
+										Pattern: "rs"
+										Color: 15
+									}
+									{
+										Pattern: "ls"
+										Color: 11
+									}
+								]
+							}
+						}
+					}
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "supplementaries:flag_orange"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_magenta"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_light_blue"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_lime"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_gray"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_cyan"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_green"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_red"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_white"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_light_gray"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_yellow"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_pink"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_purple"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_blue"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_brown"
+									Count: 1b
+								}
+								{
+									id: "supplementaries:flag_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "7F4FDBDE58C30C3A"
+				type: "item"
+				item: {
+					id: "desolation:charred_fence"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Flag Pole\",\"italic\":false,\"color\":\"aqua\"}"
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests2.title}"
+			x: 2.0d
+			y: 9.5d
+			shape: "circle"
+			subtitle: "{abovebeyond.stage_5.quests2.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests2.description0}"
+				""
+				"{abovebeyond.stage_5.quests2.description1}"
+				""
+				"{abovebeyond.stage_5.quests2.description2}"
+				""
+				"{abovebeyond.stage_5.quests2.description3}"
+			]
+			dependencies: [
+				"42B5C0102B22F389"
+				"5358E5F7FB59DD60"
+				"5550A3E383EFEC90"
+				"55F959A18E904D6C"
+				"7927B6162577FA7B"
+				"1C6657984648B0D4"
+				"4A16CE3BC111280F"
+				"3126DE83A6741671"
+				"7D808F15BEDD7A7B"
+				"2441491CB5D5E57D"
+			]
+			dependency_requirement: "one_completed"
+			id: "69311E02A8B3451D"
+			tasks: [{
+				id: "2C98415D43457049"
+				type: "item"
+				item: "kubejs:computation_matrix"
+				count: 8L
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests3.title}"
+			icon: {
+				id: "thermal:fluid_cell"
+				Count: 1b
+				tag: {
+					Properties: { }
+					BlockEntityTag: {
+						RSControl: {
+							RSThreshold: 0b
+							RSMode: 0b
+						}
+						AmountOut: 1000
+						Xfer: {
+							XferOut: 1b
+							XferIn: 0b
+						}
+						TankInv: [{
+							FluidName: "kubejs:raw_logic"
+							Capacity: 32000
+							Tank: 0b
+							Amount: 32000
+						}]
+						AmountIn: 1000
+					}
+				}
+			}
+			x: 2.0d
+			y: 15.5d
+			shape: "square"
+			subtitle: "{abovebeyond.stage_5.quests3.subtitle}"
+			description: ["{abovebeyond.stage_5.quests3.description0}"]
+			dependencies: ["5D0454F977C4F080"]
+			size: 1.5d
+			id: "70D563EF30E9CB97"
+			tasks: [
+				{
+					id: "2A4A54EBAFBEB39F"
+					type: "item"
+					item: "kubejs:raw_logic_bucket"
+					consume_items: false
+				}
+				{
+					id: "406AAC43EBD44F6A"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests3.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:three"
+			x: 0.5d
+			y: 13.5d
+			subtitle: "{abovebeyond.stage_5.quests4.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests4.description0}"
+				""
+				"{abovebeyond.stage_5.quests4.description1}"
+			]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "5550A3E383EFEC90"
+			tasks: [
+				{
+					id: "343E4ED28EA67219"
+					type: "item"
+					item: "kubejs:three"
+					consume_items: false
+				}
+				{
+					id: "61DEC75D20A61088"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests4.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:eight"
+			x: 3.5d
+			y: 13.5d
+			subtitle: "{abovebeyond.stage_5.quests5.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests5.description0}"
+				""
+				"{abovebeyond.stage_5.quests5.description1}"
+			]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "3126DE83A6741671"
+			tasks: [
+				{
+					id: "18BB7C8E32701CB6"
+					type: "item"
+					item: "kubejs:eight"
+					consume_items: false
+				}
+				{
+					id: "4DAD021C66AB2A27"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests5.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:zero"
+			x: 5.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests6.subtitle}"
+			description: ["{abovebeyond.stage_5.quests6.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "2441491CB5D5E57D"
+			tasks: [
+				{
+					id: "6FF94B3F20E69F43"
+					type: "item"
+					item: "kubejs:zero"
+					consume_items: false
+				}
+				{
+					id: "3413FA802F33F4BF"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests6.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:one"
+			x: -1.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests7.subtitle}"
+			description: ["{abovebeyond.stage_5.quests7.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "42B5C0102B22F389"
+			tasks: [
+				{
+					id: "61A3EF7882F2A31E"
+					type: "item"
+					item: "kubejs:one"
+					consume_items: false
+				}
+				{
+					id: "402FD7973EC66AEA"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests7.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:two"
+			x: -0.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests8.subtitle}"
+			description: ["{abovebeyond.stage_5.quests8.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "5358E5F7FB59DD60"
+			tasks: [
+				{
+					id: "2AD655BD7E1A0EBF"
+					type: "item"
+					item: "kubejs:two"
+					consume_items: false
+				}
+				{
+					id: "14D9C52366D6AF27"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests8.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:four"
+			x: 0.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests9.subtitle}"
+			description: ["{abovebeyond.stage_5.quests9.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "55F959A18E904D6C"
+			tasks: [
+				{
+					id: "54FEAD9C942788CF"
+					type: "item"
+					item: "kubejs:four"
+					consume_items: false
+				}
+				{
+					id: "3662CA8BEE33E02D"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests9.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:five"
+			x: 1.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests10.subtitle}"
+			description: ["{abovebeyond.stage_5.quests10.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "7927B6162577FA7B"
+			tasks: [
+				{
+					id: "0B94D4B1C2A131DA"
+					type: "item"
+					item: "kubejs:five"
+					consume_items: false
+				}
+				{
+					id: "4963498277C8A578"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests10.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:six"
+			x: 2.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests11.subtitle}"
+			description: ["{abovebeyond.stage_5.quests11.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "1C6657984648B0D4"
+			tasks: [
+				{
+					id: "0127797E6B5249A2"
+					type: "item"
+					item: "kubejs:six"
+					consume_items: false
+				}
+				{
+					id: "3E69BC01E47532D1"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests11.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:seven"
+			x: 3.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests12.subtitle}"
+			description: ["{abovebeyond.stage_5.quests12.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "4A16CE3BC111280F"
+			tasks: [
+				{
+					id: "7FA25AD87CBD6B62"
+					type: "item"
+					item: "kubejs:seven"
+					consume_items: false
+				}
+				{
+					id: "44A10C4B490D3C62"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests12.tasks1.title}"
+				}
+			]
+		}
+		{
+			icon: "kubejs:nine"
+			x: 4.5d
+			y: 11.5d
+			subtitle: "{abovebeyond.stage_5.quests13.subtitle}"
+			description: ["{abovebeyond.stage_5.quests13.description0}"]
+			dependencies: [
+				"5550A3E383EFEC90"
+				"3126DE83A6741671"
+				"4E85C8A2EEEB57C3"
+			]
+			id: "7D808F15BEDD7A7B"
+			tasks: [
+				{
+					id: "2F81E83410906BB5"
+					type: "item"
+					item: "kubejs:nine"
+					consume_items: false
+				}
+				{
+					id: "5521427D5BAF2771"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests13.tasks1.title}"
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests14.title}"
+			icon: "appliedenergistics2:matter_ball"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "{abovebeyond.stage_5.quests14.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests14.description0}"
+				""
+				"{abovebeyond.stage_5.quests14.description1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "3CBED6B591BCEDEA"
+			tasks: [
+				{
+					id: "245415CFAEFCA7ED"
+					type: "item"
+					item: "appliedenergistics2:matter_ball"
+					consume_items: false
+				}
+				{
+					id: "0811C927283EE155"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests14.tasks1.title}"
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests15.title}"
+			x: 2.0d
+			y: 4.5d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests15.description0}"]
+			dependencies: [
+				"6F750A66D0A559DE"
+				"3CBED6B591BCEDEA"
+			]
+			id: "6A156D11D983661D"
+			tasks: [{
+				id: "25532A2369192051"
+				type: "item"
+				item: "kubejs:matter_plastics"
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests16.title}"
+			icon: "thermal:crude_oil_bucket"
+			x: -2.5d
+			y: 8.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests16.description0}"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "4761DAE59CDD93AF"
+			tasks: [{
+				id: "69EE10F8CDFF7980"
+				type: "item"
+				title: "{abovebeyond.stage_5.quests16.tasks0.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "kubejs:crude_oil_bucket"
+								Count: 1b
+							}
+							{
+								id: "thermal:crude_oil_bucket"
+								Count: 1b
+							}
+						]
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests17.title}"
+			x: -1.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests17.description0}"]
+			dependencies: ["4761DAE59CDD93AF"]
+			id: "2BD76CB3F8BC215E"
+			tasks: [{
+				id: "0F12D5A3157F61C4"
+				type: "item"
+				item: "thermal:heavy_oil_bucket"
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests18.title}"
+			x: -1.0d
+			y: 9.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests18.description0}"]
+			dependencies: ["4761DAE59CDD93AF"]
+			id: "26DD1CA6A8D4E249"
+			tasks: [{
+				id: "2EA66D1B4EEBFA62"
+				type: "item"
+				item: "thermal:light_oil_bucket"
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests19.title}"
+			x: 0.5d
+			y: 9.0d
+			shape: "circle"
+			subtitle: "{abovebeyond.stage_5.quests19.subtitle}"
+			description: ["{abovebeyond.stage_5.quests19.description0}"]
+			dependencies: [
+				"2BD76CB3F8BC215E"
+				"26DD1CA6A8D4E249"
+			]
+			dependency_requirement: "one_completed"
+			id: "25B76A897D97C9F1"
+			tasks: [{
+				id: "5CAC7E6BDD460233"
+				type: "item"
+				item: "thermal:refined_fuel_bucket"
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests20.title}"
+			x: 3.5d
+			y: 3.5d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests20.description0}"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "6F750A66D0A559DE"
+			tasks: [{
+				id: "588732AF86BA6A8D"
+				type: "item"
+				item: "create:blaze_cake"
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests21.title}"
+			icon: "advancedrocketry:spacehelmet"
+			x: -1.0d
+			y: 6.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests21.description0}"]
+			dependencies: ["6A156D11D983661D"]
+			id: "6BA9A176EDA001A3"
+			tasks: [
+				{
+					id: "7E45D4E589606928"
+					type: "item"
+					item: "advancedrocketry:spacehelmet"
+					consume_items: false
+				}
+				{
+					id: "00E67717F76ABA56"
+					type: "item"
+					item: "advancedrocketry:spacechest"
+					consume_items: false
+				}
+				{
+					id: "3D1FB475F19FB099"
+					type: "item"
+					item: "advancedrocketry:spaceleggings"
+					consume_items: false
+				}
+				{
+					id: "29F72399D75E555C"
+					type: "item"
+					item: "advancedrocketry:spaceboots"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests22.title}"
+			x: 3.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests22.description0}"]
+			hide_dependency_lines: true
+			dependencies: ["5D0454F977C4F080"]
+			id: "462CE0A4C80442FB"
+			tasks: [{
+				id: "4036EE2984EFEA1A"
+				type: "item"
+				item: {
+					id: "advancedrocketry:planet_id_chip"
+					Count: 1b
+					tag: {
+						dimId: "custommoon:moon"
+						DimensionName: " The Moon "
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests23.title}"
+			icon: "advancedrocketry:oxygencharger"
+			x: 0.5d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "{abovebeyond.stage_5.quests23.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests23.description0}"
+				""
+				"{abovebeyond.stage_5.quests23.description1}"
+			]
+			dependencies: ["6A156D11D983661D"]
+			id: "3AD7553F3C8593F9"
+			tasks: [
+				{
+					id: "045DB251DB8BB97F"
+					type: "item"
+					item: "advancedrocketry:oxygencharger"
+					consume_items: false
+				}
+				{
+					id: "23140AC17E9BE946"
+					type: "item"
+					item: "advancedrocketry:bucketoxygen"
+					count: 4L
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests24.title}"
+			icon: "advancedrocketry:launchpad"
+			x: 2.0d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "{abovebeyond.stage_5.quests24.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests24.description0}"
+				""
+				"{abovebeyond.stage_5.quests24.description1}"
+				""
+				"{abovebeyond.stage_5.quests24.description2}"
+			]
+			dependencies: ["6A156D11D983661D"]
+			id: "4800892E1E70648D"
+			tasks: [
+				{
+					id: "1F86655043929A18"
+					type: "item"
+					item: "advancedrocketry:launchpad"
+					consume_items: false
+				}
+				{
+					id: "2BC9E126D403902B"
+					type: "item"
+					item: "advancedrocketry:structuretower"
+					consume_items: false
+				}
+				{
+					id: "3D2474BE8BAE28D1"
+					type: "item"
+					item: "advancedrocketry:rocketassembler"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "6023AC8699FE1451"
+				type: "command"
+				title: "{abovebeyond.stage_5.quests24.rewards0.title}"
+				icon: {
+					id: "occultism:book_of_calling_djinni_manage_machine"
+					Count: 1b
+					tag: {
+						spiritName: "Zedzeraeus"
+					}
+				}
+				team_reward: false
+				command: "/c ponder advancedrocketry:guidancecomputer"
+				player_command: true
+			}]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests25.title}"
+			icon: "libvulpes:linker"
+			x: 5.0d
+			y: 6.0d
+			shape: "circle"
+			description: ["{abovebeyond.stage_5.quests25.description0}"]
+			dependencies: ["6A156D11D983661D"]
+			id: "1AE7B6CA4D1DBA6F"
+			tasks: [
+				{
+					id: "4D0D4FCDA84500F4"
+					type: "item"
+					item: "advancedrocketry:fuelingstation"
+					consume_items: false
+				}
+				{
+					id: "0CA84D5F0130C60E"
+					type: "item"
+					item: "libvulpes:linker"
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests26.title}"
+			icon: "kubejs:plus"
+			x: 2.0d
+			y: 14.0d
+			subtitle: "{abovebeyond.stage_5.quests26.subtitle}"
+			description: ["{abovebeyond.stage_5.quests26.description0}"]
+			dependencies: ["70D563EF30E9CB97"]
+			id: "4E85C8A2EEEB57C3"
+			tasks: [
+				{
+					id: "69462AA912169E3B"
+					type: "item"
+					item: "kubejs:plus"
+					consume_items: false
+				}
+				{
+					id: "56E1C75AD6DF3119"
+					type: "item"
+					item: "kubejs:minus"
+					consume_items: false
+				}
+				{
+					id: "3BF3D9E9B3782EA3"
+					type: "item"
+					item: "kubejs:multiply"
+					consume_items: false
+				}
+				{
+					id: "5914CB0D1D6E839E"
+					type: "item"
+					item: "kubejs:divide"
+					consume_items: false
+				}
+				{
+					id: "26517C9D1C3D8269"
+					type: "checkmark"
+					title: "{abovebeyond.stage_5.quests26.tasks4.title}"
+				}
+			]
+		}
+		{
+			title: "{abovebeyond.stage_5.quests27.title}"
+			icon: "advancedrocketry:fueltank"
+			x: 3.5d
+			y: 6.0d
+			shape: "circle"
+			subtitle: "{abovebeyond.stage_5.quests27.subtitle}"
+			description: [
+				"{abovebeyond.stage_5.quests27.description0}"
+				""
+				"{abovebeyond.stage_5.quests27.description1}"
+				"{abovebeyond.stage_5.quests27.description2}"
+			]
+			dependencies: [
+				"6A156D11D983661D"
+				"4800892E1E70648D"
+			]
+			id: "73473DC7269EC5B0"
+			tasks: [
+				{
+					id: "5A1CC7C1BAFFABBC"
+					type: "item"
+					item: "advancedrocketry:rocketmotor"
+					consume_items: false
+				}
+				{
+					id: "303C6C7B357D47D9"
+					type: "item"
+					item: "advancedrocketry:fueltank"
+					consume_items: false
+				}
+				{
+					id: "5140EF835413E2FC"
+					type: "item"
+					item: "advancedrocketry:seat"
+					consume_items: false
+				}
+			]
+		}
+	]
+}
